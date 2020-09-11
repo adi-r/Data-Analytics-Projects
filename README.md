@@ -20,3 +20,5 @@ Developed POC for a client that required prediction of natural gas consumption i
 16) GAZ- Natural Gas used in MWh
 
 Using the given attributes, we were attempting to predict the value of GAZ through implementation  of a DNN. However, due to the discrete nature of the values present, correlation between all the attributes is in the same level of positivity and hence yields no insight. So we first cluster the data into different ranges of GAZ and then attempt to predict consumption via DNN.
+
+The project makes use of Python and its libraries, Pandas, Numpy, Matplotlib and Seaborn for analytics and visulaization of data along with Scikit for implementation of KMeans Clustering.
